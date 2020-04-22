@@ -1,0 +1,333 @@
+﻿ 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"] - AdminTest</title>
+     
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <!-- Bootstrap 3.3.4 -->
+    <link href="~/AdminLTE-2.1.1/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- FontAwesome 4.3.0 -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons 2.0.0 -->
+    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <!-- Theme style -->
+    <link href="~/AdminLTE-2.1.1/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link href="~/AdminLTE-2.1.1/dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="skin-blue sidebar-mini">
+   
+   
+    <div class="wrapper">
+
+        <header class="main-header">
+            <!-- 后台模板名称-->
+            <a href="index2.html" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-mini"><b>缺</b>商</span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-lg"><b>缺</b>缺<b>商</b>城</span>
+            </a>
+            <!-- 头部导航栏 -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span class="sr-only">展开/收回</span>
+                </a>
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <!-- 信息-->
+                        <li class="dropdown messages-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-envelope-o"></i>
+                                <span class="label label-success">4</span>
+                            </a>
+                            <!-- 信息下拉显示-->
+                            <ul class="dropdown-menu">
+                                <li class="header">You have 4 messages</li>
+                                <li>
+                                    <!-- inner menu: contains the actual data -->
+                                    <ul class="menu">
+                                        <li>
+                                            <!-- start message -->
+                                            <a href="#">
+                                                <div class="pull-left">
+                                                    <img src="~/AdminLTE-2.1.1/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
+                                                </div>
+                                                <h4>
+                                                    Support Team
+                                                    <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                                                </h4>
+                                                <p>Why not buy a new awesome theme?</p>
+                                            </a>
+                                        </li><!-- end message -->
+                                        <li>
+                                            <a href="#">
+                                                <div class="pull-left">
+                                                    <img src="~/AdminLTE-2.1.1/dist/img/user3-128x128.jpg" class="img-circle" alt="user image" />
+                                                </div>
+                                                <h4>
+                                                    AdminLTE Design Team
+                                                    <small><i class="fa fa-clock-o"></i> 2 hours</small>
+                                                </h4>
+                                                <p>Why not buy a new awesome theme?</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="pull-left">
+                                                    <img src="~/AdminLTE-2.1.1/dist/img/user4-128x128.jpg" class="img-circle" alt="user image" />
+                                                </div>
+                                                <h4>
+                                                    Developers
+                                                    <small><i class="fa fa-clock-o"></i> Today</small>
+                                                </h4>
+                                                <p>Why not buy a new awesome theme?</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="pull-left">
+                                                    <img src="~/AdminLTE-2.1.1/dist/img/user3-128x128.jpg" class="img-circle" alt="user image" />
+                                                </div>
+                                                <h4>
+                                                    Sales Department
+                                                    <small><i class="fa fa-clock-o"></i> Yesterday</small>
+                                                </h4>
+                                                <p>Why not buy a new awesome theme?</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="pull-left">
+                                                    <img src="~/AdminLTE-2.1.1/dist/img/user4-128x128.jpg" class="img-circle" alt="user image" />
+                                                </div>
+                                                <h4>
+                                                    Reviewers
+                                                    <small><i class="fa fa-clock-o"></i> 2 days</small>
+                                                </h4>
+                                                <p>Why not buy a new awesome theme?</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="footer"><a href="#">See All Messages</a></li>
+                            </ul>
+                        </li>
+                        <!-- 通知-->
+                        <li class="dropdown notifications-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-bell-o"></i>
+                                <span class="label label-warning">10</span>
+                            </a>
+                            <!-- 通知下拉显示-->
+                            <ul class="dropdown-menu">
+                                <li class="header">You have 10 notifications</li>
+                                <li>
+                                    <!-- inner menu: contains the actual data -->
+                                    <ul class="menu">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the page and may cause design problems
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-users text-red"></i> 5 new members joined
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-shopping-cart text-green"></i> 25 sales made
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-user text-red"></i> You changed your username
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="footer"><a href="#">View all</a></li>
+                            </ul>
+                        </li>
+
+
+                        <!-- 用户-->
+                        <li class="dropdown user user-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="~/Img/6.jpg" class="user-image" alt="User Image" />
+                                <span class="hidden-xs">炸天张缺缺</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <!-- 用户图片+名称+邮箱 -->
+                                <li class="user-header">
+                                    <img src="~/Img/6.jpg" class="img-circle" alt="User Image" />
+                                    <p>
+                                        炸天张缺缺
+                                        <small>欢迎加入炸天帮！</small>
+                                    </p>
+                                </li>
+                                <!-- Menu Body -->
+                                @*<li class="user-body">
+                                        <div class="col-xs-4 text-center">
+                                            <a href="#">修改资料</a>
+                                        </div>
+                                        <div class="col-xs-4 text-center">
+                                            <a href="#">更改密码</a>
+                                        </div>
+                                        <div class="col-xs-4 text-center">
+                                            <a href="#">联系作者</a>
+                                        </div>
+                                    </li>*@
+                                <!-- Menu Footer-->
+                                <!-- 按钮事件-->
+                                <li class="user-footer">
+                                    <div class="pull-left">
+                                        <a href="#" class="btn btn-default btn-flat">个人中心</a>
+                                    </div>
+                                    <div class="pull-right">
+                                        <a href="#" class="btn btn-default btn-flat">注销</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <!--设置按钮-->
+                        <li>
+                            <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!--侧边栏 + 用户信息：头像+名称-->
+        <aside class="main-sidebar">
+            <!-- 用户信息：头像+名称-->
+            <section class="sidebar">
+                <div class="user-panel">
+                    <div class="pull-left image">
+                        <img src="~/Img/2.jpg" class="img-circle" style="height:45px" alt="User Image" />
+                    </div>
+                    <div class="pull-left info">
+                        <p>炸天张缺缺</p>
+
+                        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                    </div>
+                </div>
+
+                <!-- 侧边栏菜单 -->
+                <ul class="sidebar-menu">
+                    <li class="header">菜单</li>
+                    <li class="active treeview">
+                        <a href="#">
+                            <i class="fa fa-dashboard"></i> <span>仪表盘</span>
+                        </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-pie-chart"></i>
+                            <span>个人中心</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> 信息修改</a></li>
+                            <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> 安全设置</a></li>
+                            <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i> 我的订单</a></li>
+                            <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i>注销</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="pages/widgets.html">
+                            <i class="ion ion-ios-people"></i> <span>用户</span> <small class="label pull-right bg-green">new</small>
+                        </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-th"></i>
+                            <span>商品</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> 商品上架</a></li>
+                            <li><a href="pages/charts/flot.html"><i class="fa fa-circle-o"></i> 商品图片详情</a></li>
+                            <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> 商品博客</a></li>
+                            <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> 商品管理</a></li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-laptop"></i>
+                            <span>仓库</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> 商品入库</a></li>
+                            <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> 商品出库</a></li>
+                            <li><a href="pages/UI/buttons.html"><i class="fa fa-circle-o"></i> 仓库订单</a></li>
+                            <li><a href="pages/UI/buttons.html"><i class="fa fa-circle-o"></i> 仓库管理</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-edit"></i> <span>关于作者</span>
+                        </a>
+                    </li>
+                    <li class="header">关于</li>
+                    <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>博客</span></a></li>
+                    <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>GitHub</span></a></li>
+                    <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>本模板由AdminLTE提供</span></a></li>
+                </ul>
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+
+        <!-- 内容区域 -->
+        <div class="content-wrapper" >
+            @RenderBody()
+        </div><!-- /.content-wrapper -->
+        <footer class="main-footer">
+            <div class="pull-right hidden-xs">
+                <b>Version</b> 2.0
+            </div>
+            <strong>Copyright &copy; 2020 <a href="http://beian.miit.gov.cn">晋ICP备20002472号-1</a>.</strong> 缺缺作品
+        </footer>
+
+
+        <!-- 设置，修改demo.js -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <!-- Create the tabs -->
+            <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane" id="control-sidebar-home-tab">
+                </div>
+                <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div><!-- /.tab-pane -->
+            </div>
+        </aside>
+        <div class='control-sidebar-bg'></div>
+    </div><!-- ./wrapper -->
+    <!-- jQuery 2.1.4 -->
+    <script src="~/AdminLTE-2.1.1/plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <!-- jQuery UI 1.11.2 -->
+    <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.min.js" type="text/javascript"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <!-- Bootstrap 3.3.2 JS -->
+    <script src="~/AdminLTE-2.1.1/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- AdminLTE App -->
+    <script src="~/AdminLTE-2.1.1/dist/js/app.min.js" type="text/javascript"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="~/AdminLTE-2.1.1/dist/js/demo.js" type="text/javascript"></script>
+</body>
+@RenderSection("Scripts", required: false)
+</html>
